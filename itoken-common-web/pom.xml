@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.kayleoi</groupId>
+        <artifactId>itoken-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../itoken-dependencies/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>itoken-common-web</artifactId>
+    <packaging>jar</packaging>
+
+    <name>itoken-common-web</name>
+    <url>http://www.funtl.com</url>
+    <inceptionYear>2018-Now</inceptionYear>
+
+    <dependencies>
+        <!--依赖common项目-->
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <!-- Spring Boot Begin -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <!-- Spring Boot End -->
+
+        <!-- Spring Cloud Begin -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <!-- Spring Cloud End -->
+
+        <!-- Spring Boot Admin Begin -->
+        <dependency>
+            <groupId>org.jolokia</groupId>
+            <artifactId>jolokia-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+        </dependency>
+        <!-- Spring Boot Admin End -->
+
+        <!-- Environment Begin -->
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+        </dependency>
+        <!-- Environment End -->
+
+        <!-- Swagger2 Begin -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common-domain</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- Swagger2 End -->
+        <!--不需要加上后悔报错没有数据源-->
+        <!--&lt;!&ndash;mybatis&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis.spring.boot</groupId>-->
+            <!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
+            <!--<version>1.3.2</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>tk.mybatis</groupId>-->
+            <!--<artifactId>mapper-spring-boot-starter</artifactId>-->
+            <!--<version>2.0.4</version>-->
+        <!--</dependency>-->
+    </dependencies>
+
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.mybatis.generator</groupId>-->
+                <!--<artifactId>mybatis-generator-maven-plugin</artifactId>-->
+                <!--<version>1.3.5</version>-->
+                <!--<configuration>-->
+                    <!--<configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>-->
+                    <!--<overwrite>true</overwrite>-->
+                    <!--<verbose>true</verbose>-->
+                <!--</configuration>-->
+                <!--<dependencies>-->
+                    <!--<dependency>-->
+                        <!--<groupId>mysql</groupId>-->
+                        <!--<artifactId>mysql-connector-java</artifactId>-->
+                        <!--<version>${mysql.version}</version>-->
+                    <!--</dependency>-->
+                    <!--<dependency>-->
+                        <!--<groupId>tk.mybatis</groupId>-->
+                        <!--<artifactId>mapper</artifactId>-->
+                        <!--<version>3.4.4</version>-->
+                    <!--</dependency>-->
+                <!--</dependencies>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+</project>

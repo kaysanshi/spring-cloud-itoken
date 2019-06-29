@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: itoken-config
+  boot:
+    admin:
+      client:
+        url: http://192.168.75.128:8084
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/kaysanshi/itoken-config-respo.git
+          search-paths: respo
+          username: kaysanshi@163.com
+          password: lukailei0809**
+  zipkin:
+    base-url: http://192.168.75.128:9411
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.75.128:8761/eureka/,http://192.168.75.128:8861/eureka/,http://192.168.75.128:8961/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+

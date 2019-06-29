@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: itoken-service-sso
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/itoken-service-admin?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123
+      initial-size: 1 #初始化建立连接个数
+      min-idle: 1  #最小连接池的数量
+      max-active: 20 #最大的活动的数量
+      test-on-borrow: true # 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+      driver-class-name: com.mysql.jdbc.Driver

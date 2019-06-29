@@ -1,0 +1,40 @@
+#spring-cloud-config的默认端口是 http://localhost:8888，当你配置的配置中心的 server.port 不是8888 的时候，其他服务就起不来了#
+#说说明其他服务还是去8888这个默认端口取配置中心的文件，而不去你在 application.yaml文件中配置的配置中心读取配置文件所以使用bootStrap.xml，#
+#启动时就会加载bootstrap.xml而application.xml的优先级不高#
+spring:
+  application:
+    name: itoken-config
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/kaysanshi/itoken-config-respo.git
+          search-paths: respo #配置文件所在的目录#
+          username: kaysanshi@163.com
+          password: lukailei0809**
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+#检测节点的类型#
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

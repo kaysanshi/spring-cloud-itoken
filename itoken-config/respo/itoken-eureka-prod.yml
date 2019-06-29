@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: itoken-eureka
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: host
+
+  client:
+    #表示将自己注册到eureka中，因为要构建集群，所以应该开启#
+    registerWithEureka: true
+    #表示是否从eureka中获取注册信息，不需要同步其他eureka节点，则可以设置false，因为为集群所以true#
+    fetchRegistry: true
+
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: itoken-web-admin
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+  tymeleaf:
+    cache: false #开发时关闭缓存，不然没法看到实时预警
+    mode: LEGACYHTML5 #用非严格的Html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8601  #86开头服务消费者
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+  #熔断器#
+feign:
+  hystrix:
+    enabled: true
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

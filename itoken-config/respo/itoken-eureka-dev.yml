@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: itoken-eureka
+  boot:
+    admin:
+      url: http://localhost:8084
+  zikpin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+    #nonSecurePort: ${server.port} #获取该实例应该接收通信的非安全端口
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #上面的是eureka自己注册自己#
+
+
+management:
+  endpoint:
+    health:
+      show-detail: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
