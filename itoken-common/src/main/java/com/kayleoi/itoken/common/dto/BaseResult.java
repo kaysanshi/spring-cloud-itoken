@@ -34,6 +34,15 @@ public class BaseResult implements Serializable {
     }
 
     /**
+     * 成功操作
+     * 返回状态码success
+     * @param success
+     * @return
+     */
+    public static BaseResult ok(String success) {
+        return createResult(RESULT_OK, null, success, null, null);
+    }
+    /**
      * 成功操作但是不返回结果
      * @return
      */
@@ -42,6 +51,15 @@ public class BaseResult implements Serializable {
 
     }
 
+    /**
+     * 分页数据的返回封装
+     * @param data
+     * @param cursor
+     * @return
+     */
+    public static BaseResult ok(Object data, Cursor cursor){
+        return createResult(RESULT_OK, data, SUCCESS, cursor, null);
+    }
     /**
      * 失败的
      * @param errors

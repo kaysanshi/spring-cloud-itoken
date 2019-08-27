@@ -22,8 +22,14 @@
         <dependency>
             <groupId>com.kayleoi</groupId>
             <artifactId>itoken-common</artifactId>
-            <version>${parent.version}</version>
+            <version>${project.parent.version} </version>
         </dependency>
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
         <!-- Spring Boot Begin -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -36,6 +42,10 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -88,18 +98,6 @@
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
         <!-- Swagger2 End -->
-
-        <!--mybatis-->
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>1.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>tk.mybatis</groupId>
-            <artifactId>mapper-spring-boot-starter</artifactId>
-            <version>2.0.4</version>
-        </dependency>
     </dependencies>
 
     <build>

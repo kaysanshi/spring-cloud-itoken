@@ -15,8 +15,16 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class AdminServiceFallback implements AdminService {
+
     @Override
-    public String login(String loginCode, String password) {
-        return FallBack.badGateway();
-    }
+    public String get(String userCode) {
+        return FallBack.badGateway();    }
+
+    @Override
+    public String save(String tbSysUserJson, String optsBy) {
+        return FallBack.badGateway();    }
+
+    @Override
+    public String page(int pageNum, int pageSize, String tbSysUserJson) {
+        return FallBack.badGateway();    }
 }

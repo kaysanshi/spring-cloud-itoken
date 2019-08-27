@@ -18,6 +18,25 @@
     <inceptionYear>2018-Now</inceptionYear>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common-service</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common-domain</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common-web</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
         <!-- Spring Boot Begin -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -75,23 +94,7 @@
             <scope>runtime</scope>
         </dependency>
         <!-- Database End -->
-        <dependency>
-            <groupId>com.kayleoi</groupId>
-            <artifactId>itoken-common-service</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.kayleoi</groupId>
-            <artifactId>itoken-common-domain</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.kayleoi</groupId>
-            <artifactId>itoken-common-web</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
+
     </dependencies>
 
     <build>
@@ -102,29 +105,6 @@
                 <configuration>
                     <mainClass>com.kayleoi.itoken.service.sso.SsoApplication</mainClass>
                 </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-maven-plugin</artifactId>
-                <version>1.3.5</version>
-                <configuration>
-                    <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
-                    <overwrite>true</overwrite>
-                    <verbose>true</verbose>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>${mysql.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>tk.mybatis</groupId>
-                        <artifactId>mapper</artifactId>
-                        <version>3.4.4</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
     </build>

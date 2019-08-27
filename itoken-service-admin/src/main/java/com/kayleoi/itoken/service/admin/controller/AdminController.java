@@ -1,103 +1,112 @@
 package com.kayleoi.itoken.service.admin.controller;
 
-import com.google.common.collect.Lists;
+import com.github.pagehelper.PageInfo;
 import com.kayleoi.itoken.common.dto.BaseResult;
 import com.kayleoi.itoken.common.domain.TbSysUser;
-import com.kayleoi.itoken.service.admin.service.AdminServcie;
+import com.kayleoi.itoken.common.utils.MapperUtils;
+import com.kayleoi.itoken.service.admin.service.AdminService;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.util.DigestUtils;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.UUID;
 
 /**
  * @Author kay三石
  * @date:2019/6/22
  */
 @RestController
+@RequestMapping(value = "v1/admins")
 public class AdminController {
 
     @Autowired
-    private AdminServcie adminServcie;
-
+    private AdminService adminService;
     /**
-     * 登录
-     * @param loginCode
-     * @param password
+     * 根据 ID 获取管理员
+     *
+     * @param userCode
      * @return
      */
-    @RequestMapping(value = "login",method= RequestMethod.GET)
-    public BaseResult login(String loginCode,String password){
-        //检查登录信息
-        BaseResult baseResult = checkLogin(loginCode, password);
-        if(baseResult != null){
-            return baseResult;
-        }
-        //登录业务
-        TbSysUser loginUser = adminServcie.login(loginCode, password);
-        //登录成功
-        if(loginUser!=null){
-            return BaseResult.ok(loginUser);
-        }else{
-            return BaseResult.notOk(Lists.newArrayList(new BaseResult.Error("","登录失败")));
-
-        }
-
+    @ApiOperation(value ="获取管理员信息" )
+    @RequestMapping(value = "{userCode}", method = RequestMethod.GET)
+    public BaseResult get(String userCode) {
+        TbSysUser tbSysUser = new TbSysUser();
+        tbSysUser.setUserCode(userCode);
+        TbSysUser obj = (TbSysUser) adminService.selectOne(tbSysUser);
+        return BaseResult.ok(obj);
     }
 
     /**
-     * 注册
-     * @param user
+     * 保存管理员
+     *
      * @return
      */
-    @RequestMapping(value = "register",method = RequestMethod.GET)
-    public BaseResult register(TbSysUser user){
+    @ApiOperation(value = "保存管理员信息")
+    @RequestMapping(method = RequestMethod.POST)
+    public BaseResult save(
+            @RequestParam(required = true) String tbSysUserJson,
+            @RequestParam(required = true) String optsBy
+    ) {
+        int result = 0;
 
-        if (user.getPassword()!=null&&user.getUserName()!=null){
-            boolean status=adminServcie.register(user);
-            if (status==true){
-                return BaseResult.ok("注册成功");
-            }else{
-                return BaseResult.notOk(Lists.newArrayList(new BaseResult.Error("","注册失败")));
+        TbSysUser tbSysUser = null;
+        try {
+            tbSysUser = MapperUtils.json2pojo(tbSysUserJson, TbSysUser.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        if (tbSysUser != null) {
+            // 密码加密
+            String password = DigestUtils.md5DigestAsHex(tbSysUser.getPassword().getBytes());
+            tbSysUser.setPassword(password);
+
+            // 新增用户
+            if (StringUtils.isBlank(tbSysUser.getUserCode())) {
+                tbSysUser.setUserCode(UUID.randomUUID().toString());
+                result = adminService.insert(tbSysUser, optsBy);
             }
-        }else{
-            return BaseResult.notOk(Lists.newArrayList(new BaseResult.Error("password","注册失败，验证码不可为空")));
 
+            // 修改用户
+            else {
+                result = adminService.update(tbSysUser, optsBy);
+            }
+
+            // 最少有一行数据受影响
+            if (result > 0) {
+                return BaseResult.ok("保存管理员成功");
+            }
         }
+
+        return BaseResult.ok("保存管理员失败");
     }
 
     /**
-     * 检查登录信息
-     * @param loginCode
-     * @param password
+     * 分页的数据
+     *
+     * @param pageNum
+     * @param pageSize
+     * @param tbSysUser
      * @return
      */
-    public BaseResult checkLogin(String loginCode,String password){
-        BaseResult baseResult=null;
-//        List<BaseResult.Error> errors=new ArrayList <>();
-//        这里使用谷歌的不自己用了
-        List<BaseResult.Error> errors= Lists.newArrayList();
-//        if (StringUtils.isBlank(loginCode)){
-//            BaseResult.Error error=new BaseResult.Error();
-//            error.setField("loginCode");
-//            error.setMessage("登录账号不能为空");
-//            errors.add(error);
-//        }
-//        if (StringUtils.isBlank(password)){
-//            BaseResult.Error error=new BaseResult.Error();
-//            error.setField("password");
-//            error.setMessage("密码不能为空");
-//            errors.add(error);
-//        }
-        if (StringUtils.isBlank(loginCode)||StringUtils.isBlank(password)){
-            baseResult=BaseResult.notOk(Lists.newArrayList(
-                    new BaseResult.Error("loginCode","登录账号不能为空"),
-                     new BaseResult.Error("password","密码不能为空")
+    @ApiOperation(value = "分页数据")
+    @RequestMapping(value = "page/{pageNum}/{pageSize}", method = RequestMethod.GET)
+    public BaseResult page(
+            @PathVariable(required = true) int pageNum,
+            @PathVariable(required = true) int pageSize,
+            @RequestParam(required = false) TbSysUser tbSysUser) {
 
-            ));
-        }
-        return baseResult;
+        PageInfo pageInfo = adminService.page(pageNum, pageSize, tbSysUser);
+        List <TbSysUser> list = pageInfo.getList();
+        //封装Cursor
+        BaseResult.Cursor cursor = new BaseResult.Cursor();
+        cursor.setTotal(new Long(pageInfo.getTotal()).intValue());
+        cursor.setOffset(pageInfo.getPageNum());
+        cursor.setLimit(pageInfo.getPageSize());
+        return BaseResult.ok(list, cursor);
+
     }
 }

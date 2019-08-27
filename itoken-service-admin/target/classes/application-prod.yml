@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      uri: http://192.168.147.132:8888
-      name: itoken-service-admin,itoken-common-service
-      label: master
-      profile: prod

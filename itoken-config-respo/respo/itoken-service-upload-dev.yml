@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: itoken-service-upload
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  zipkin:
+    base-url: http://localhost:9411
+  redis:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes: 127.0.0.1:6379
+# 自定义配置
+fastdfs.base.url: http://192.168.75.128:8888/
+storage:
+  type: fastdfs
+  fastdfs:
+    tracker_server: 192.168.75.128:22122
+
+server:
+  port: 8505
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+
+
+
+management:
+  endpoint:
+    health:
+      show-detail: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+
+

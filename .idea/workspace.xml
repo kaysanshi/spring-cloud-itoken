@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/controller/AdminController.java" line="65" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc4c938-1bcd-440f-818c-9845c5baf341" name="Default Changelist" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-domain/itoken-common-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-domain/itoken-common-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/TbSysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/TbSysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-service/itoken-common-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-service/itoken-common-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-service/src/main/java/tk.mybatis.mapper/MyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-service/src/main/java/tk.mybatis.mapper/MyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-service/target/classes/tk/mybatis/mapper/MyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-service/target/classes/tk/mybatis/mapper/MyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-web/itoken-common-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-web/itoken-common-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/dto/BaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/dto/BaseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/target/classes/com/kayleoi/itoken/common/dto/BaseResult$Cursor.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/target/classes/com/kayleoi/itoken/common/dto/BaseResult$Cursor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/target/classes/com/kayleoi/itoken/common/dto/BaseResult$Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/target/classes/com/kayleoi/itoken/common/dto/BaseResult$Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/target/classes/com/kayleoi/itoken/common/dto/BaseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/target/classes/com/kayleoi/itoken/common/dto/BaseResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/itoken-service-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/itoken-service-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/ServiceAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/ServiceAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/mapper/TbSysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/service/AdminServcie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/resources/generator/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/main/resources/mapper/TbSysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/src/test/java/com/kayleoi/itoken/service/admin/test/service/AdminServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/src/test/java/com/kayleoi/itoken/service/admin/test/service/AdminServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/target/classes/generator/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/target/classes/mapper/TbSysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-admin/target/test-classes/com/kayleoi/itoken/service/admin/test/service/AdminServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-admin/target/test-classes/com/kayleoi/itoken/service/admin/test/service/AdminServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/itoken-service-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-redis/itoken-service-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/src/main/java/com.kayleoi.itoken.service.redis/RedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/src/main/java/com.kayleoi.itoken.service.redis/controller/RedisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-redis/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-redis/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-sso/itoken-service-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-sso/itoken-service-sso.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/consumer/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/consumer/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-sso/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-service-sso/target/classes/com/kayleoi/itoken/service/sso/SsoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-service-sso/target/classes/com/kayleoi/itoken/service/sso/SsoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/itoken-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/itoken-web-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/fallback/AdminServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/fallback/AdminServiceFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/target/classes/com/kayleoi/itoken/web/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/target/classes/com/kayleoi/itoken/web/admin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-web-admin/target/classes/com/kayleoi/itoken/web/admin/service/fallback/AdminServiceFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-web-admin/target/classes/com/kayleoi/itoken/web/admin/service/fallback/AdminServiceFallback.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/itoken-config/target/" />
     <ignored path="$PROJECT_DIR$/itoken-dependencies/target/" />
@@ -24,6 +87,9 @@
     <ignored path="$PROJECT_DIR$/itoken-service-redis/target/" />
     <ignored path="$PROJECT_DIR$/itoken-service-sso/target/" />
     <ignored path="$PROJECT_DIR$/itoken-common-domain/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-posts/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-web-posts/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-service-upload/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,154 +113,106 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1791990907">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="26" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.50" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.54" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.58" value="1" />
-          <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="HTML" value="5" />
-          <entry key="IDEA_MODULE" value="8" />
-          <entry key="JAVA" value="173" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="8" />
-          <entry key="XML" value="103" />
-          <entry key="YAML" value="223" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="28" />
-          <entry key="JAVA" value="6118" />
-          <entry key="PLAIN_TEXT" value="120" />
-          <entry key="Properties" value="11" />
-          <entry key="XML" value="1094" />
-          <entry key="YAML" value="2123" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages">
-        <counts>
-          <entry key="EditRuntimeBean.fromToolWindowPanel" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="spring-cloud-itoken" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com/kayleoi/itoken/service/redis/service/RedisService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com/kayleoi/itoken/service/redis/service/impl/RediServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/TbSysUser.java">
+        <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/ServiceUploadApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-eureka-prod.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-admin-prod.yml">
+        <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/StorageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="342">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/SoftWare/mavenstorage/repository/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+        <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/FastDFSStorageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="1216">
+              <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-service-redis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/includes/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="35" selection-end-line="80" selection-end-column="10" />
+            <state relative-caret-position="515">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-redis-dev.yml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="152">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com.kayleoi.itoken.service.redis/RedisApplication.java">
+        <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="1292">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/StorageFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+            <state relative-caret-position="247">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/FastDFSConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -204,8 +222,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -226,57 +245,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/itoken-service-redis/src/main/java/com/kayleoi/itoken/service/redis/service/impl/RediServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/SsoAdminApplication.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-common-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/mapper/TbSysUserMapper.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/service/AdminServcie.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/resources/generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/resources/mapper/TbSysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/TbSysUser.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com/kayleoi/itoken/service/sso/mapper/TbSysUserMapper.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/mapper/TbUser.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-service-admin-dev.yml" />
-        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-service-admin-prod.yml" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/LoginServcie.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/consumer/RedisService.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/consumer/fallback/RedisServiceFallBack.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/dto/BaseResult.java" />
+        <option value="$PROJECT_DIR$/itoken-common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-common-service/src/main/java/com/kayleoi/itoken/common/utils/RedisCache.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/service/BaseClientService.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/service/fallback/PostsServiceFallBack.java" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/componenrs/datatables/DataTablesResult.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/form.html" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/includes/menu.html" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/main.html" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/templates/includes/copyrigth.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/templates/includes/foot.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/templates/includes/head.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/templates/includes/header.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/templates/includes/menu.html" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/static/assert/app/datetime.js" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/static/assert/app/nth-tabs.js" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/static/assert/app/app.js" />
+        <option value="$PROJECT_DIR$/itoken-common-web/src/java/resources/static/assert/app/validate.js" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/config/WebPostsInterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/config/WebInterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/AdminService.java" />
         <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/fallback/AdminServiceFallback.java" />
-        <option value="$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/hystrix/FallBack.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-service-sso-dev.yml" />
-        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-service-sso-prod.yml" />
-        <option value="$PROJECT_DIR$/itoken-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/bin/deploy_dependencies.bat" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/impl/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itoken-common/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/itoken-common-web/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com.kayleoi.itoken.web.interceptor/WebConstants.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com.kayleoi.itoken.web.interceptor/BaseInterceptorMethods.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/constants/WebConstants.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/ServiceAdminApplication.java" />
-        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/SsoApplication.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com.kayleoi.itoken.web.interceptor/ConstantInterceptor.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/config/Webconfig.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/config/Interceptorconfig.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/service/PostsService.java" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/controller/PostsController.java" />
+        <option value="$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/service/PostsService.java" />
         <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/config/WebInterceptorConfiguration.java" />
-        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-common-service-dev.yml" />
-        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-common-service-prod.yml" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/fallback/RedisServiceFallBack.java" />
-        <option value="$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/interceptor/ConstantsInterceptor.java" />
-        <option value="$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/content/ApplicationContextHolder.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/ServiceAdminApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/ServicePostsApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/controller/PostsController.java" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-common-hosts-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-web-posts/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/ServiceUploadApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/StorageService.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/StorageFactory.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/FastDFSConfiguration.java" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/FastDFSStorageService.java" />
+        <option value="$PROJECT_DIR$/itoken-service-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -304,15 +323,48 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-service-upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-service-upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1068" />
-    <option name="y" value="97" />
-    <option name="width" value="1663" />
-    <option name="height" value="963" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="5" />
+    <option name="width" value="1665" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -322,6 +374,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -330,22 +383,10 @@
               <item name="spring-cloud-itoken" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-itoken" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-itoken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-itoken" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-itoken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-itoken" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-config" type="462c0819:PsiDirectoryNode" />
-              <item name="respo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,41 +402,43 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561781188988" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566910942972" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itoken-service-upload/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kayleoi.itoken.service.redis" />
+      <recent name="com.kayleoi.itoken.service.redis.service" />
+      <recent name="" />
       <recent name="com.kayleoi.itoken.web.interceptor" />
       <recent name="com.kayleoi.itoken.service.sso" />
-      <recent name="com.kayleoi.itoken.service.sso.mapper" />
-      <recent name="com.kayleoi.itoken.service.redis.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Java\spring-cloud-itoken\itoken-config\respo" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-service-sso\src\main\resources" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-common-domain" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-service-sso" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-service-redis\src\main\resources" />
+      <recent name="F:\Java\spring-cloud-itoken" />
+      <recent name="F:\Java\spring-cloud-itoken\itoken-config-respo\respo" />
+      <recent name="F:\Java\spring-cloud-itoken\itoken-service-upload\src\main\resources" />
+      <recent name="F:\Java\spring-cloud-itoken\itoken-service-upload" />
+      <recent name="F:\Java\spring-cloud-itoken\itoken-web-posts\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kayleoi.itoken.web.admin.service.fallback" />
-      <recent name="com.kayleoi.itoken.web.admin.service" />
-      <recent name="com.kayleoi.itoken.service.sso.service" />
-      <recent name="com.kayleoi.itoken.service.sso.mapper" />
+      <recent name="com.kayleoi.itoken.web.posts.interceptor" />
+      <recent name="com.kayleoi.itoken.service.redis.service" />
+      <recent name="com.kayleoi.itoken.service.posts.mapper" />
+      <recent name="com.kayleoi.itoken.service.admin.mapper" />
+      <recent name="com.kayleoi.itoken.common.domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\spring-cloud-itoken\itoken-common-web\src\java\resources\templates\includes" />
+      <recent name="F:\Java\spring-cloud-itoken\itoken-common-service\src\main" />
+      <recent name="F:\Java\spring-cloud-itoken\itoken-config-respo" />
       <recent name="F:\Java\spring-cloud-itoken" />
       <recent name="F:\Java\spring-cloud-itoken\itoken-service-admin\src\main\resources" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-service-admin\src\main" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-service-admin\src" />
-      <recent name="F:\Java\spring-cloud-itoken\itoken-service-admin\src\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,7 +459,7 @@
     </option>
     <option name="contentProportion" value="0.2103825" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisApplication">
+  <component name="RunManager" selected="Spring Boot.ServicePostsApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="itoken-admin" />
       <extension name="coverage">
@@ -450,15 +493,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="itoken-service-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kayleoi.itoken.service.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kayleoi.itoken.service.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-service-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kayleoi.itoken.service.redis.service.RedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -472,6 +516,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kayleoi.itoken.service.admin.ServiceAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicePostsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itoken-service-posts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kayleoi.itoken.service.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kayleoi.itoken.service.posts.ServicePostsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -515,19 +572,21 @@
       <item itemvalue="Spring Boot.ZuulApplication (1)" />
       <item itemvalue="Spring Boot.ZipKinApplication (1)" />
       <item itemvalue="Spring Boot.SsoApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.RedisApplication (1)" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.ServiceAdminApplication" />
       <item itemvalue="Spring Boot.WebAdminApplication" />
-      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.ServicePostsApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RedisApplication" />
-        <item itemvalue="Spring Boot.WebAdminApplication" />
-        <item itemvalue="Spring Boot.ServiceAdminApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Spring Boot.ServiceAdminApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.WebAdminApplication" />
+        <item itemvalue="Spring Boot.ServicePostsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +626,27 @@
       <workItem from="1561780093315" duration="1556000" />
       <workItem from="1561787231822" duration="18000" />
       <workItem from="1561788068332" duration="4059000" />
-      <workItem from="1561862482793" duration="2070000" />
+      <workItem from="1561862482793" duration="2074000" />
+      <workItem from="1561948683247" duration="2006000" />
+      <workItem from="1562028214646" duration="1251000" />
+      <workItem from="1562041911833" duration="352000" />
+      <workItem from="1562229193197" duration="545000" />
+      <workItem from="1562329278839" duration="719000" />
+      <workItem from="1562391492964" duration="1346000" />
+      <workItem from="1562472431901" duration="104000" />
+      <workItem from="1562474184619" duration="43000" />
+      <workItem from="1562501104128" duration="614000" />
+      <workItem from="1562510835735" duration="677000" />
+      <workItem from="1564827160700" duration="10184000" />
+      <workItem from="1564889806110" duration="20178000" />
+      <workItem from="1565013922484" duration="2273000" />
+      <workItem from="1566617269206" duration="9857000" />
+      <workItem from="1566643782119" duration="3765000" />
+      <workItem from="1566706236028" duration="12793000" />
+      <workItem from="1566822109192" duration="886000" />
+      <workItem from="1566910224650" duration="431000" />
+      <workItem from="1566910764427" duration="150000" />
+      <workItem from="1566911136045" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559192477759</created>
@@ -696,7 +775,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153694000" />
+    <option name="totallyTimeSpent" value="222275000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -708,46 +787,94 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49608356" visible="true" weight="0.2989276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49384886" visible="true" weight="0.18297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" sideWeight="0.50391644" side_tool="true" weight="0.21179625" />
+      <window_info id="JRebel" order="3" sideWeight="0.50615114" side_tool="true" weight="0.31434315" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5010941" side_tool="true" weight="0.23592493" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6913947" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.51319647" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42668623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4256032" weight="0.6202346" />
-      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.36595175" weight="0.32991204" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.36595175" weight="0.58651024" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.75067025" weight="0.47947213" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.24932976" side_tool="true" visible="true" weight="0.26099706" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32991204" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" x="394" y="246" width="747" height="331" id="JRebel Console" order="13" sideWeight="0.1380697" side_tool="true" weight="0.48502994" />
-      <window_info anchor="bottom" id="Problems" order="14" weight="0.32991204" />
-      <window_info anchor="bottom" x="124" y="246" width="1287" height="331" id="JRebel Executor" order="15" sideWeight="0.6340483" side_tool="true" weight="0.18768328" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.30351907" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" x="394" y="246" width="747" height="331" id="JRebel Console" order="12" sideWeight="0.1380697" side_tool="true" weight="0.48502994" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32991204" />
+      <window_info anchor="bottom" x="124" y="246" width="1287" height="331" id="JRebel Executor" order="14" sideWeight="0.6340483" side_tool="true" weight="0.18768328" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.46627566" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.6936997" weight="0.33870968" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.6936997" weight="0.6881406" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="18" sideWeight="0.49865952" weight="0.32991204" />
+      <window_info anchor="bottom" id="MyBatis Log" order="19" weight="0.5659824" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.2600536" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.34517425" />
       <window_info anchor="right" id="Database" order="6" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Redis Servers" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49384886" visible="true" weight="0.28236398" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" sideWeight="0.50615114" side_tool="true" weight="0.31434315" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010941" side_tool="true" weight="0.23592493" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.51319647" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42668623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4256032" weight="0.6202346" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.36595175" weight="0.58651024" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.75067025" weight="0.47947213" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.30351907" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" x="394" y="246" width="747" height="331" id="JRebel Console" order="12" sideWeight="0.1380697" side_tool="true" weight="0.48502994" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32991204" />
+      <window_info anchor="bottom" x="124" y="246" width="1287" height="331" id="JRebel Executor" order="14" sideWeight="0.6340483" side_tool="true" weight="0.18768328" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.46627566" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.6936997" weight="0.6881406" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="18" sideWeight="0.49865952" weight="0.32991204" />
+      <window_info anchor="bottom" id="MyBatis Log" order="19" weight="0.5659824" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28217158" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32941177" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Redis Servers" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -759,362 +886,344 @@
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/interceptor/LoginInterceptor.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/consumer/RedisService.java">
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/service/PostsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="179">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/service/impl/AdminServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
+        <state relative-caret-position="-570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/fallback/AdminServiceFallback.java">
+    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/resources/templates/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/hystrix/FallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/consumer/fallback/RedisServiceFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-sso-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/LoginServcie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6610">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/utils/MapperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1102">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/deploy_dependencies.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/resources/generator/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/constants/WebConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/ServiceAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/SsoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-redis-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-admin-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-common-service-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/WebAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/RedisService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/service/fallback/RedisServiceFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-common-service-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-web-admin-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="342">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/mapper/TbPostsPostExtendMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/service/impl/PostsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/resources/mapper/TbPostsPostExtendMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/java/com/kayleoi/itoken/common/mapper/TbSysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/java/com/kayleoi/itoken/common/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/java/tk.mybatis.mapper/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/src/main/java/com/kayleoi/itoken/common/utils/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/utils/MapperUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/kayleoi/itoken/common/content/ApplicationContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/SoftWare/mavenstorage/repository/io/springfox/springfox-spring-web/2.8.0/springfox-spring-web-2.8.0-sources.jar!/springfox/documentation/spring/web/plugins/Docket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/ServiceAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/service/PostsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/ServicePostsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="31" column="59" lean-forward="true" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-posts/src/main/java/com/kayleoi/itoken/service/posts/controller/PostsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/TbPostsPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/kayleoi/itoken/service/admin/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-common-hosts-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-common-hosts-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/config/WebInterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/java/com.kayleoi.itoken.web.posts/controller/PostsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/ServiceUploadApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/FastDFSStorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/interceptor/BaseInterceptorMethods.java">
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        <state relative-caret-position="1292">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common-web/src/java/main/com/kayleoi/itoken/web/interceptor/ConstantsInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/StorageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/kayleoi/itoken/web/admin/config/WebInterceptorConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SoftWare/mavenstorage/repository/org/springframework/spring-webmvc/5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-sso-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com.kayleoi.itoken.service.redis/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com/kayleoi/itoken/service/redis/service/RedisService.java">
+    <entry file="file://$PROJECT_DIR$/itoken-service-upload/src/main/java/com/kayleoi/itoken/service/upload/fastdfs/FastDFSConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/SoftWare/mavenstorage/repository/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-redis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/itoken-config-respo/respo/itoken-service-upload-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" selection-end-line="80" selection-end-column="10" />
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com.kayleoi.itoken.service.redis/RedisApplication.java">
+    <entry file="file://$PROJECT_DIR$/itoken-web-posts/src/main/resources/templates/includes/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="515">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com.kayleoi.itoken.service.sso/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/java/com/kayleoi/itoken/service/redis/service/impl/RediServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/TbSysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-eureka-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-admin-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-service-redis-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="152">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1279,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>itoken-service-sso</last-edited>
+          <last-edited>itoken-common-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

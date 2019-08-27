@@ -4,4 +4,4 @@ spring:
       uri: http://localhost:8888
       name: itoken-eureka
       label: master
-      profile: dev
+      profile: prod

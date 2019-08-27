@@ -18,7 +18,11 @@
     <inceptionYear>2018-Now</inceptionYear>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.kayleoi</groupId>
+            <artifactId>itoken-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -69,10 +73,6 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
         <!--识别@table-->
         <dependency>

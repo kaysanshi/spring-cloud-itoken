@@ -1,5 +1,6 @@
 package com.kayleoi.itoken.service.sso.service.consumer;
 
+import com.kayleoi.itoken.service.sso.service.consumer.fallback.RedisServiceFallBack;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Author kay三石
  * @date:2019/6/28
  */
-@FeignClient(value = "itoken-service-redis")
+@FeignClient(value = "itoken-service-redis",fallback = RedisServiceFallBack.class)
 public interface RedisService {
 
     @RequestMapping(value = "put",method = RequestMethod.GET)

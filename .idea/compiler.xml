@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/itoken-common-domain/src/main/java/com/kayleoi/itoken/common/domain/BaseDomain.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -16,9 +19,12 @@
         <module name="itoken-config" />
         <module name="itoken-eureka" />
         <module name="itoken-service-admin" />
+        <module name="itoken-service-posts" />
         <module name="itoken-service-redis" />
         <module name="itoken-service-sso" />
+        <module name="itoken-service-upload" />
         <module name="itoken-web-admin" />
+        <module name="itoken-web-posts" />
         <module name="itoken-zipkin" />
         <module name="itoken-zuul" />
       </profile>
@@ -34,9 +40,12 @@
       <module name="itoken-dependencies" target="1.8" />
       <module name="itoken-eureka" target="1.8" />
       <module name="itoken-service-admin" target="1.8" />
+      <module name="itoken-service-posts" target="1.8" />
       <module name="itoken-service-redis" target="1.8" />
       <module name="itoken-service-sso" target="1.8" />
+      <module name="itoken-service-upload" target="1.8" />
       <module name="itoken-web-admin" target="1.8" />
+      <module name="itoken-web-posts" target="1.8" />
       <module name="itoken-zipkin" target="1.8" />
       <module name="itoken-zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -52,9 +61,12 @@
       <module name="itoken-config" options="-parameters" />
       <module name="itoken-eureka" options="-parameters" />
       <module name="itoken-service-admin" options="-parameters" />
+      <module name="itoken-service-posts" options="-parameters" />
       <module name="itoken-service-redis" options="-parameters" />
       <module name="itoken-service-sso" options="-parameters" />
+      <module name="itoken-service-upload" options="-parameters" />
       <module name="itoken-web-admin" options="-parameters" />
+      <module name="itoken-web-posts" options="-parameters" />
       <module name="itoken-zipkin" options="-parameters" />
       <module name="itoken-zuul" options="-parameters" />
     </option>

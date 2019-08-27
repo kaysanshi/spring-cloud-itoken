@@ -11,9 +11,12 @@
       <module fileurl="file://$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" filepath="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" filepath="$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-service-admin/itoken-service-admin.iml" filepath="$PROJECT_DIR$/itoken-service-admin/itoken-service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-service-posts/itoken-service-posts.iml" filepath="$PROJECT_DIR$/itoken-service-posts/itoken-service-posts.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-service-redis/itoken-service-redis.iml" filepath="$PROJECT_DIR$/itoken-service-redis/itoken-service-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-service-sso/itoken-service-sso.iml" filepath="$PROJECT_DIR$/itoken-service-sso/itoken-service-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-service-upload/itoken-service-upload.iml" filepath="$PROJECT_DIR$/itoken-service-upload/itoken-service-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-web-admin/itoken-web-admin.iml" filepath="$PROJECT_DIR$/itoken-web-admin/itoken-web-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-web-posts/itoken-web-posts.iml" filepath="$PROJECT_DIR$/itoken-web-posts/itoken-web-posts.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" filepath="$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-zuul/itoken-zuul.iml" filepath="$PROJECT_DIR$/itoken-zuul/itoken-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-itoken.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-itoken.iml" />

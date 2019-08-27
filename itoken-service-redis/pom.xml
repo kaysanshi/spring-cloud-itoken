@@ -21,9 +21,10 @@
         <!-- Project Begin -->
         <dependency>
             <groupId>com.kayleoi</groupId>
-            <artifactId>itoken-common</artifactId>
+            <artifactId>itoken-common-service</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+
         <!-- Project End -->
 
         <!-- Spring Cloud Begin -->
