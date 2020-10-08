@@ -1,5 +1,6 @@
 package com.kayleoi.itoken.service.upload.fastdfs;
 
+import org.apache.http.NameValuePair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;

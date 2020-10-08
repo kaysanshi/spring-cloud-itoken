@@ -3,4 +3,5 @@ F:\Java\spring-cloud-itoken\itoken-common\src\main\java\com\kayleoi\itoken\commo
 F:\Java\spring-cloud-itoken\itoken-common\src\main\java\com\kayleoi\itoken\common\constants\HttpStatusConstants.java
 F:\Java\spring-cloud-itoken\itoken-common\src\main\java\com\kayleoi\itoken\common\dto\BaseResult.java
 F:\Java\spring-cloud-itoken\itoken-common\src\main\java\com\kayleoi\itoken\common\utils\MapperUtils.java
+F:\Java\spring-cloud-itoken\itoken-common\src\main\java\com\kayleoi\itoken\common\content\ApplicationContextHolder.java
 F:\Java\spring-cloud-itoken\itoken-common\src\main\java\com\kayleoi\itoken\common\hystrix\FallBack.java
