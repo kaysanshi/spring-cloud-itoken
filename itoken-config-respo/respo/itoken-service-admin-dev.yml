@@ -20,7 +20,7 @@ spring:
 
 
 mybatis:
-  type-aliases-package: com.kayleoi.itoken.common.domain
+  type-aliases-package: com.kaysanshi.itoken.common.domain
   mapper-localtions: classpath*:mapper/*.xml
 
 

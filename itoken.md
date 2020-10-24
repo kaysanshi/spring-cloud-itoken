@@ -1262,14 +1262,14 @@ public void addInterceptors(InterceptorRegistry registry) {
                     </jdbcConnection>
 
                     <!-- 配置实体类存放路径 -->
-                    <javaModelGenerator targetPackage="com.kayleoi.itoken.common.domain" targetProject="src/main/java"/>
+                    <javaModelGenerator targetPackage="com.kaysanshi.itoken.common.domain" targetProject="src/main/java"/>
 
                     <!-- 配置 XML 存放路径 -->
                     <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
                     <!-- 配置 DAO 存放路径 -->
                     <javaClientGenerator
-                            targetPackage="com.kayleoi.itoken.common.mapper"
+                            targetPackage="com.kaysanshi.itoken.common.mapper"
                             targetProject="src/main/java"
                             type="XMLMAPPER"/>
 
@@ -1370,7 +1370,7 @@ public Docket createRestApi(){
     return new Docket(DocumentationType.SWAGGER_2)
             .apiInfo(apiInfo())
             .select()
-            .apis(RequestHandlerSelectors.basePackage("com.kayleoi.itoken.service.admin"))
+            .apis(RequestHandlerSelectors.basePackage("com.kaysanshi.itoken.service.admin"))
             .paths(PathSelectors.any())
             .build();
 }
@@ -2120,16 +2120,16 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 ### 2.在启动服务消费者的项目中itoken-service-admin时出现的错误是：Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
 
 然而这时需要去配置中心去看结果，因为他是在配置中心拿的结果所以当检查配置中心的控制太打印是mybatis扫描包.xml报错2，这里又是不能够加载到这个xml所以配置改为
-spring.mybatis.type-aliases-page:com.kayleoi.itoken.service.admin.domain
+spring.mybatis.type-aliases-page:com.kaysanshi.itoken.service.admin.domain
 spring.mybatis.mapper-localtions: classpath*:mapper/*.xml
 这里就不会出现错误了，所以这里进行对其修改，然后就可以正常运行了。
 
 ### 3.启动admin项目时同样报错：和上面的错误一样到但是配置中心没有出现错误信息，所以这里应该如何修正呢，
 
-### 4。org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.builder.BuilderExceptioncom.kayleoi.itoken.service.admin.test.service.AdminServiceTest#regist
+### 4。org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.builder.BuilderExceptioncom.kaysanshi.itoken.service.admin.test.service.AdminServiceTest#regist
 
 这里的自动扫描的mapper：import tk.mybatis.spring.annotation.MapperScan;而不是org.mybatis..
-                        @MapperScan(basePackages = "com.kayleoi.itoken.service.admin.mapper")
+                        @MapperScan(basePackages = "com.kaysanshi.itoken.service.admin.mapper")
 
 ### 5.在启动服务admin使出错Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured：
 

@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.kayleoi</groupId>
+        <groupId>com.kaysanshi</groupId>
         <artifactId>itoken-dependencies</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../itoken-dependencies/pom.xml</relativePath>
@@ -19,7 +19,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.kayleoi</groupId>
+            <groupId>com.kaysanshi</groupId>
             <artifactId>itoken-common</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
